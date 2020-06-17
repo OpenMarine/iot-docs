@@ -6,15 +6,49 @@
 Welcome to OpenMarine Internet of Things's documentation!
 =========================================================
 
+.. image:: img/IoT200.png
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Description
+   :name: sec-description
 
+   description/what_is_iot
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 01. Acquire
+   :name: sec-acquire
 
-Indices and tables
-==================
+   acquire/openplotter
+   acquire/others
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
+   :caption: 02. Send
+   :name: sec-send
+
+   send/send
+   send/public
+   send/private
+   send/others
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 03. Store
+   :name: sec-store
+
+   store/store
+   store/others
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 04. Display
+   :name: sec-display
+
+   display/display
+   display/mqtt
+   display/thingsboard
+   display/telegram
+   display/influxdb
+   display/grafana
